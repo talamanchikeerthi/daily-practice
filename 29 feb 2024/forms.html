@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> FORMS IN HTML</h1>
+    <hr>
+    <form>
+        <fieldset>
+            <legend><h3>PERSONAL INFO</h3></legend>
+            <p>
+                <label for="first name">first name:</label>
+                <input type="text" name="first name" id="first name" placeholder="input text">
+            </p>
+            <p>
+                <label for="password">password:</label>
+                <input type="text" name="password" id="password" placeholder="pwd">
+            </p>
+            <p>
+                <label for="phone">phone:</label>
+                <input type="tel" name="phone" id="phone" placeholder="555-555-555">
+            </p>
+            <p>
+                <label for="decade" selected>fav decade:</label>
+                <input type="number" name="decade" id="decade" min="1999" max="2024" step="2" value="2001">
+            </p>
+            <p>
+                <label for="coffee">fav coffee:</label>
+                <select name="coffee" id="coffee">
+                    
+                   
+                       <option value="regular coffee">regular coffee</option>
+                       <option value="cold coffee">cold coffee</option>
+                       <option value="black coffee">black coffee</option>
+                       <option value="latte coffee">latte coffee</option>
+                       <option value="sweet coffee">sweet coffee</option>
+                       <option value="chocolate coffee">chocolate coffee</option>
+                    
+                </select>
+                
+            </p>
+        </fieldset>
+        <hr>
+        <h1>RADIO BUTTON</h1>
+        <fieldset>
+            <legend><h3>WHAT IS YOUR FAV FOOD?</h3></legend>
+            <P>
+                <input type="radio" name="food" id="Sambar rice" value="Sambar rice">
+                <label for="Sambar rice">Sambar rice</label>
+            </P>
+            <p>
+                <input type="radio" name="food" id="Curd rice" value="Curd rice">
+                <label for="Curd rice">Curd  rice</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="Bagara rice" value="Bagara rice">
+                <label for="Bagara rice">Bagara rice</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="Biriyani" value="Biriyani">
+                <label for="Biriyani">Biriyani</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="Jeera rice" value="Jeera rice">
+                <label for="Jeera rice">Jeera rice</label>
+            </p>
+
+        </fieldset>
+        <hr>
+        <h1>CHECK BOX</h1>
+        <fieldset>
+            <legend><h3>WHAT IS YOUR FAV PET?</h3></legend>
+            <P>
+                <input type="checkbox" name="pets" id="dog" value="dog">
+                <label for ="dog">dog</label>
+            </P>
+            <p>
+                <input type="checkbox" name="pets" id="cat" value="cat">
+                <label for ="cat">cat</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pets" id="fish" value="fish">
+                <label for ="fish">fish</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pets" id="parrot" value="parrot">
+                <label for ="parrot">parrot</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pets" id="other" value="other">
+                <label for ="other">other</label>
+            </p>
+        </fieldset>
+        <hr>
+        <h1>TEXT AREA</h1>
+        <fieldset>
+            <legend><h3>TEXT AREA</h3></legend>
+            
+                <label for="msg">Your msg :</label>
+                <br>
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="type here"> type here</textarea>
+
+        </fieldset>
+        <h1>BUTTON</h1>
+        
+            <button type= "submit">Submit</button>
+            <button type= "reset">Reset</button>
+            
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+       
+
+    </form>
+    
+</body>
+</html>
