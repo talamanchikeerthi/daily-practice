@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Roboto",sans-serif;
+            font-size: 1.5rem;
+            min-height: 200vh;
+        }
+        .outer-container {
+            border: 3px dashed black;
+            width: 75vw;
+            height: 85vh;
+            margin: 40px auto;
+            position: relative;
+        }
+        .inner-container {
+            border: 2px solid blue;
+            width: 40vw;
+            height: 50vh;
+            margin: 200px auto;
+            
+        }
+        .box {
+            width: 150px;
+            height: 150px;
+            color: white;
+            padding: 1rem
+        }
+        .absolute {
+            background-color: blue;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        .relative  {
+            background-color: red;
+            position: relative;
+            top: 100px;
+            left: 100px;
+         }
+         .fixed {
+            background-color: green;
+            position: fixed;
+            top: 150px;
+         }
+         .sticky{
+            background-color: black;
+            position: sticky;
+            top: 0;
+            
+         }
+
+
+    </style>
+</head>
+<body>
+    <div class="outer-container">
+        <div class="inner-container">
+            <div class="box absolute">
+                <p>Absolute</p>
+            </div>
+            <div class="box relative">
+                <p>Relative</p>
+            </div>
+            <div class="box fixed">
+                <p>Fixed</p>
+            </div>
+            <div class="box static">
+                <p>Static</p>
+            </div>
+            <div class="box sticky">
+                <p>Sticky</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
