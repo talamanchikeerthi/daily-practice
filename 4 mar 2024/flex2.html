@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            display: flex;
+           width: 700px;
+           height: 550px;
+           border: 2px solid grey;
+           flex-direction: row;
+           flex-wrap: wrap;
+           justify-content: space-evenly;
+           
+        }
+        .child {
+            width: 100px;
+            height: 100px;
+        }
+        #c1 {
+            background-color: aquamarine;
+            
+            align-self: flex-start;
+        }
+        #c2 {
+            background-color: blue;
+           
+           
+            align-self: center;
+        }
+        #c3 {
+            background-color: red;
+           
+            
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div id="c1" class="child">one</div>
+        <div id="c2" class="child">two</div>
+        <div id="c3" class="child">three</div>
+        
+    </div>
+    </div>
+    
+</body>
+</html>
