@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: o;
+    margin: auto;
+    height: 100vh;
+    width: auto;
+    padding: 50px;
+    
+}
+.container{
+    background-color: gray;
+    position: relative;
+    height:90%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 50px;
+    border-radius: 30px;
+    
+   
+}
+.note{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.img1{
+    position: absolute;
+    background-image: url(https://mojo-fertility-dev.myshopify.com/cdn/shop/t/14/assets/footer-hero-bg-img1.svg?v=27126051419216424911710045118);
+    height:148px;
+    width: 209px;
+    left: 10px;
+    background-repeat: no-repeat;
+}
+.img2{
+    position: absolute;
+    background-image: url(https://mojo-fertility-dev.myshopify.com/cdn/shop/t/14/assets/footer-hero-bg-img3.svg?v=20818651831900550061710045160);
+    height:324px;
+    width: 187px;
+    top:20px;
+    background-repeat: no-repeat;
+    left: 80%;
+}
+.img3{
+    position: absolute;
+    background-image: url(https://mojo-fertility-dev.myshopify.com/cdn/shop/t/14/assets/footer-hero-bg-img2.svg?v=139113046469753410881710045140);
+    height:205px;
+    width: 237px;
+    top:67% ;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+    
+}
+.img4{
+    position: absolute;
+    background-image: url(https://mojo-fertility-dev.myshopify.com/cdn/shop/t/14/assets/footer-hero-bg-img4.svg?v=47633943170004397151710051550);
+    height:245px;
+    width: 230px;
+    top:73% ;
+    margin-left: 80%;
+    background-repeat: no-repeat;
+    
+}
+
+  
+ 

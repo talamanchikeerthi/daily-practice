@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ans{
+    color: blue;
+}
+.container{
+    position: relative;
+    width: 27%;
+    font-size: 26px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.img{
+    position: absolute;
+    display: inline-block;
+    width: 12%;
+    height: 4%;
+    background-image: url(https://mojo-fertility-dev.myshopify.com/cdn/shop/t/14/assets/underline.svg?v=109963520868713748381709788202);
+    background-repeat: no-repeat;
+    margin-left: 211px;
+    top: 9.5%;
+}
+
+p{
+    padding: 15px;
+    font-size: 17px;
+    width: 33%;
+}
